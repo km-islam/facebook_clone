@@ -1,0 +1,35 @@
+.contacts {
+  padding: 25px 10px;
+  flex: 0.33;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 8px;
+  cursor: pointer;
+}
+.contact:hover {
+  background-color: lightgrey;
+  border-radius: 10px;
+}
+.contact > h4 {
+  margin-left: 20px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #050505;
+}
+.contact_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+.contact_left {
+  display: flex;
+  align-items: center;
+}
+.contact_left_options {
+  margin-left: 15px;
+}

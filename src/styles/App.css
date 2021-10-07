@@ -1,0 +1,30 @@
+* {
+  margin: 0px;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-bottom: 0px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+.App {
+  background-color: #f1f2f5;
+  height: 100%;
+}
+.app_body {
+  display: flex;
+}

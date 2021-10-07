@@ -1,0 +1,28 @@
+.login {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    overflow: hidden;
+    align-items: start;
+    align-content: space-around;
+    justify-content: space-around;
+}
+.login_logo {
+  display: flex;
+  flex-direction: column;
+}
+.login_logo > img {
+  object-fit: contain;
+  height: 100px;
+}
+.login > button {
+  width: 300px;
+  background-color: #2e81f4;
+  color: #eff2f5;
+  font-weight: 800;
+  border: none;
+  padding: 10px 0;
+  border-radius: 5px;
+  font-size: 22px;
+  cursor: pointer;
+}
